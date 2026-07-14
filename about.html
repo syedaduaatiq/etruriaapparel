@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Etruria Apparel</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="brand">
+    
+    <span class="brand-name">Etruria Apparel</span>
+  </a>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+  <nav class="site-nav" id="siteNav">
+    <a href="index.html">Home</a>
+    <a href="shop.html">Shop</a>
+    <a href="about.html" class="active">About</a>
+  </nav>
+</header>
+
+<main>
+  <section class="page-intro">
+    <p class="eyebrow">Our Story</p>
+    <h1>About Etruria Apparel</h1>
+    <p>Etruria Apparel began with a simple idea: clothes should feel like they were made to outlast a season. Named for the ancient civilization known for its bronze work and craftsmanship, every piece we release is small in number and built with intent — no mass runs, no filler collections.</p>
+  </section>
+
+  <section class="contact-block">
+    <div class="contact-info">
+      <h2>Get in Touch</h2>
+      <p>Questions about an order, a piece, or a collaboration — reach us here.</p>
+      <p class="contact-line">Instagram: <a href="https://instagram.com/etruriaapparel" target="_blank" rel="noopener">@etruriaapparel</a></p>
+      <p class="contact-line">Email: <a href="mailto:hello@etruriaapparel.com">hello@etruriaapparel.com</a></p>
+    </div>
+    <form class="contact-form" id="contactForm">
+      <label>Name
+        <input type="text" name="name" required>
+      </label>
+      <label>Email
+        <input type="email" name="email" required>
+      </label>
+      <label>Message
+        <textarea name="message" rows="4" required></textarea>
+      </label>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+      <p class="form-note" id="formNote"></p>
+    </form>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-top">
+    <div class="footer-brand">
+      
+      <span class="brand-name">Etruria Apparel</span>
+    </div>
+    <nav class="footer-nav">
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="about.html">About</a>
+    </nav>
+    <div class="footer-social">
+      <p>Instagram <a href="https://instagram.com/etruriaapparel" target="_blank" rel="noopener">@etruriaapparel</a></p>
+    </div>
+  </div>
+  <p class="footer-copy">&copy; <span id="year"></span> Etruria Apparel. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
